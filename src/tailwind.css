@@ -8,3 +8,18 @@
     @apply focus:outline-none;
   }
 }
+.pos-center {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.underline-short {
+  @apply relative;
+}
+.underline-short::after {
+  content: "";
+  @apply w-20 h-1 bg-gray-750 block;
+}
+
+.cat-img:hover > *:last-child {
+  @apply animate-to-left;
+}
