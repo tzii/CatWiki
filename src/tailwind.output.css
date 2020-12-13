@@ -2125,6 +2125,11 @@ button:focus, input:focus {
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
+.bg-gray-250 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+}
+
 .bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -2138,6 +2143,11 @@ button:focus, input:focus {
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+}
+
+.bg-gray-550 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
 }
 
 .bg-gray-600 {
@@ -2553,6 +2563,11 @@ button:focus, input:focus {
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
+.group:hover .group-hover\:bg-gray-250 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+}
+
 .group:hover .group-hover\:bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -2566,6 +2581,11 @@ button:focus, input:focus {
 .group:hover .group-hover\:bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-gray-550 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:bg-gray-600 {
@@ -2981,6 +3001,11 @@ button:focus, input:focus {
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
+.focus-within\:bg-gray-250:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+}
+
 .focus-within\:bg-gray-300:focus-within {
   --tw-bg-opacity: 1;
   background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -2994,6 +3019,11 @@ button:focus, input:focus {
 .focus-within\:bg-gray-500:focus-within {
   --tw-bg-opacity: 1;
   background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-gray-550:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
 }
 
 .focus-within\:bg-gray-600:focus-within {
@@ -3409,6 +3439,11 @@ button:focus, input:focus {
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-250:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+}
+
 .hover\:bg-gray-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -3422,6 +3457,11 @@ button:focus, input:focus {
 .hover\:bg-gray-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-550:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
 }
 
 .hover\:bg-gray-600:hover {
@@ -3837,6 +3877,11 @@ button:focus, input:focus {
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
+.focus\:bg-gray-250:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+}
+
 .focus\:bg-gray-300:focus {
   --tw-bg-opacity: 1;
   background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -3850,6 +3895,11 @@ button:focus, input:focus {
 .focus\:bg-gray-500:focus {
   --tw-bg-opacity: 1;
   background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+}
+
+.focus\:bg-gray-550:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
 }
 
 .focus\:bg-gray-600:focus {
@@ -22301,6 +22351,11 @@ button:focus, input:focus {
   color: rgba(229, 231, 235, var(--tw-text-opacity));
 }
 
+.text-gray-250 {
+  --tw-text-opacity: 1;
+  color: rgba(224, 224, 224, var(--tw-text-opacity));
+}
+
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -22314,6 +22369,11 @@ button:focus, input:focus {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+.text-gray-550 {
+  --tw-text-opacity: 1;
+  color: rgba(84, 68, 57, var(--tw-text-opacity));
 }
 
 .text-gray-600 {
@@ -22724,6 +22784,11 @@ button:focus, input:focus {
   color: rgba(229, 231, 235, var(--tw-text-opacity));
 }
 
+.group:hover .group-hover\:text-gray-250 {
+  --tw-text-opacity: 1;
+  color: rgba(224, 224, 224, var(--tw-text-opacity));
+}
+
 .group:hover .group-hover\:text-gray-300 {
   --tw-text-opacity: 1;
   color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -22737,6 +22802,11 @@ button:focus, input:focus {
 .group:hover .group-hover\:text-gray-500 {
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-gray-550 {
+  --tw-text-opacity: 1;
+  color: rgba(84, 68, 57, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-gray-600 {
@@ -23147,6 +23217,11 @@ button:focus, input:focus {
   color: rgba(229, 231, 235, var(--tw-text-opacity));
 }
 
+.focus-within\:text-gray-250:focus-within {
+  --tw-text-opacity: 1;
+  color: rgba(224, 224, 224, var(--tw-text-opacity));
+}
+
 .focus-within\:text-gray-300:focus-within {
   --tw-text-opacity: 1;
   color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -23160,6 +23235,11 @@ button:focus, input:focus {
 .focus-within\:text-gray-500:focus-within {
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+.focus-within\:text-gray-550:focus-within {
+  --tw-text-opacity: 1;
+  color: rgba(84, 68, 57, var(--tw-text-opacity));
 }
 
 .focus-within\:text-gray-600:focus-within {
@@ -23570,6 +23650,11 @@ button:focus, input:focus {
   color: rgba(229, 231, 235, var(--tw-text-opacity));
 }
 
+.hover\:text-gray-250:hover {
+  --tw-text-opacity: 1;
+  color: rgba(224, 224, 224, var(--tw-text-opacity));
+}
+
 .hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
   color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -23583,6 +23668,11 @@ button:focus, input:focus {
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+.hover\:text-gray-550:hover {
+  --tw-text-opacity: 1;
+  color: rgba(84, 68, 57, var(--tw-text-opacity));
 }
 
 .hover\:text-gray-600:hover {
@@ -23993,6 +24083,11 @@ button:focus, input:focus {
   color: rgba(229, 231, 235, var(--tw-text-opacity));
 }
 
+.focus\:text-gray-250:focus {
+  --tw-text-opacity: 1;
+  color: rgba(224, 224, 224, var(--tw-text-opacity));
+}
+
 .focus\:text-gray-300:focus {
   --tw-text-opacity: 1;
   color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -24006,6 +24101,11 @@ button:focus, input:focus {
 .focus\:text-gray-500:focus {
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+.focus\:text-gray-550:focus {
+  --tw-text-opacity: 1;
+  color: rgba(84, 68, 57, var(--tw-text-opacity));
 }
 
 .focus\:text-gray-600:focus {
@@ -25781,6 +25881,14 @@ button:focus, input:focus {
   grid-template-columns: none;
 }
 
+.grid-cols-2-auto {
+  grid-template-columns: auto auto;
+}
+
+.grid-cols-2-info {
+  grid-template-columns: 190px auto;
+}
+
 .auto-cols-auto {
   grid-auto-columns: auto;
 }
@@ -25991,6 +26099,10 @@ button:focus, input:focus {
 
 .grid-rows-none {
   grid-template-rows: none;
+}
+
+.grid-rows-2-auto {
+  grid-template-rows: auto auto;
 }
 
 .auto-rows-auto {
@@ -29257,7 +29369,7 @@ button:focus, input:focus {
   transform: translate(0, -50%);
 }
 
-.underline-short {
+.underline-short, .topline-short {
   position: relative;
 }
 
@@ -29267,6 +29379,17 @@ button:focus, input:focus {
   background-color: rgba(41, 21, 7, var(--tw-bg-opacity));
   display: block;
   height: 0.25rem;
+  width: 5rem;
+}
+
+.topline-short::after {
+  content: "";
+  --tw-bg-opacity: 1;
+  background-color: rgba(41, 21, 7, var(--tw-bg-opacity));
+  display: block;
+  height: 0.25rem;
+  position: absolute;
+  top: -1rem;
   width: 5rem;
 }
 
@@ -30859,6 +30982,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .sm\:bg-gray-250 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .sm\:bg-gray-300 {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -30872,6 +31000,11 @@ button:focus, input:focus {
   .sm\:bg-gray-500 {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-gray-550 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .sm\:bg-gray-600 {
@@ -31287,6 +31420,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .group:hover .sm\:group-hover\:bg-gray-250 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .group:hover .sm\:group-hover\:bg-gray-300 {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -31300,6 +31438,11 @@ button:focus, input:focus {
   .group:hover .sm\:group-hover\:bg-gray-500 {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-gray-550 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .group:hover .sm\:group-hover\:bg-gray-600 {
@@ -31715,6 +31858,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .sm\:focus-within\:bg-gray-250:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .sm\:focus-within\:bg-gray-300:focus-within {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -31728,6 +31876,11 @@ button:focus, input:focus {
   .sm\:focus-within\:bg-gray-500:focus-within {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-gray-550:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .sm\:focus-within\:bg-gray-600:focus-within {
@@ -32143,6 +32296,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .sm\:hover\:bg-gray-250:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .sm\:hover\:bg-gray-300:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -32156,6 +32314,11 @@ button:focus, input:focus {
   .sm\:hover\:bg-gray-500:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-gray-550:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .sm\:hover\:bg-gray-600:hover {
@@ -32571,6 +32734,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .sm\:focus\:bg-gray-250:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .sm\:focus\:bg-gray-300:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -32584,6 +32752,11 @@ button:focus, input:focus {
   .sm\:focus\:bg-gray-500:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-gray-550:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .sm\:focus\:bg-gray-600:focus {
@@ -51022,6 +51195,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .sm\:text-gray-250 {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .sm\:text-gray-300 {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -51035,6 +51213,11 @@ button:focus, input:focus {
   .sm\:text-gray-500 {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .sm\:text-gray-550 {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .sm\:text-gray-600 {
@@ -51445,6 +51628,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .group:hover .sm\:group-hover\:text-gray-250 {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .group:hover .sm\:group-hover\:text-gray-300 {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -51458,6 +51646,11 @@ button:focus, input:focus {
   .group:hover .sm\:group-hover\:text-gray-500 {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:text-gray-550 {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .group:hover .sm\:group-hover\:text-gray-600 {
@@ -51868,6 +52061,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .sm\:focus-within\:text-gray-250:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .sm\:focus-within\:text-gray-300:focus-within {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -51881,6 +52079,11 @@ button:focus, input:focus {
   .sm\:focus-within\:text-gray-500:focus-within {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .sm\:focus-within\:text-gray-550:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .sm\:focus-within\:text-gray-600:focus-within {
@@ -52291,6 +52494,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .sm\:hover\:text-gray-250:hover {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .sm\:hover\:text-gray-300:hover {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -52304,6 +52512,11 @@ button:focus, input:focus {
   .sm\:hover\:text-gray-500:hover {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .sm\:hover\:text-gray-550:hover {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .sm\:hover\:text-gray-600:hover {
@@ -52714,6 +52927,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .sm\:focus\:text-gray-250:focus {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .sm\:focus\:text-gray-300:focus {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -52727,6 +52945,11 @@ button:focus, input:focus {
   .sm\:focus\:text-gray-500:focus {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .sm\:focus\:text-gray-550:focus {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .sm\:focus\:text-gray-600:focus {
@@ -54502,6 +54725,14 @@ button:focus, input:focus {
     grid-template-columns: none;
   }
 
+  .sm\:grid-cols-2-auto {
+    grid-template-columns: auto auto;
+  }
+
+  .sm\:grid-cols-2-info {
+    grid-template-columns: 190px auto;
+  }
+
   .sm\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -54712,6 +54943,10 @@ button:focus, input:focus {
 
   .sm\:grid-rows-none {
     grid-template-rows: none;
+  }
+
+  .sm\:grid-rows-2-auto {
+    grid-template-rows: auto auto;
   }
 
   .sm\:auto-rows-auto {
@@ -59516,6 +59751,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .md\:bg-gray-250 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .md\:bg-gray-300 {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -59529,6 +59769,11 @@ button:focus, input:focus {
   .md\:bg-gray-500 {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-gray-550 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .md\:bg-gray-600 {
@@ -59944,6 +60189,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .group:hover .md\:group-hover\:bg-gray-250 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .group:hover .md\:group-hover\:bg-gray-300 {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -59957,6 +60207,11 @@ button:focus, input:focus {
   .group:hover .md\:group-hover\:bg-gray-500 {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-gray-550 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .group:hover .md\:group-hover\:bg-gray-600 {
@@ -60372,6 +60627,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .md\:focus-within\:bg-gray-250:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .md\:focus-within\:bg-gray-300:focus-within {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -60385,6 +60645,11 @@ button:focus, input:focus {
   .md\:focus-within\:bg-gray-500:focus-within {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-gray-550:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .md\:focus-within\:bg-gray-600:focus-within {
@@ -60800,6 +61065,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .md\:hover\:bg-gray-250:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .md\:hover\:bg-gray-300:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -60813,6 +61083,11 @@ button:focus, input:focus {
   .md\:hover\:bg-gray-500:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-gray-550:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .md\:hover\:bg-gray-600:hover {
@@ -61228,6 +61503,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .md\:focus\:bg-gray-250:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .md\:focus\:bg-gray-300:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -61241,6 +61521,11 @@ button:focus, input:focus {
   .md\:focus\:bg-gray-500:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-gray-550:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .md\:focus\:bg-gray-600:focus {
@@ -79679,6 +79964,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .md\:text-gray-250 {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .md\:text-gray-300 {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -79692,6 +79982,11 @@ button:focus, input:focus {
   .md\:text-gray-500 {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .md\:text-gray-550 {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .md\:text-gray-600 {
@@ -80102,6 +80397,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .group:hover .md\:group-hover\:text-gray-250 {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .group:hover .md\:group-hover\:text-gray-300 {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -80115,6 +80415,11 @@ button:focus, input:focus {
   .group:hover .md\:group-hover\:text-gray-500 {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .group:hover .md\:group-hover\:text-gray-550 {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .group:hover .md\:group-hover\:text-gray-600 {
@@ -80525,6 +80830,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .md\:focus-within\:text-gray-250:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .md\:focus-within\:text-gray-300:focus-within {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -80538,6 +80848,11 @@ button:focus, input:focus {
   .md\:focus-within\:text-gray-500:focus-within {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .md\:focus-within\:text-gray-550:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .md\:focus-within\:text-gray-600:focus-within {
@@ -80948,6 +81263,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .md\:hover\:text-gray-250:hover {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .md\:hover\:text-gray-300:hover {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -80961,6 +81281,11 @@ button:focus, input:focus {
   .md\:hover\:text-gray-500:hover {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .md\:hover\:text-gray-550:hover {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .md\:hover\:text-gray-600:hover {
@@ -81371,6 +81696,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .md\:focus\:text-gray-250:focus {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .md\:focus\:text-gray-300:focus {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -81384,6 +81714,11 @@ button:focus, input:focus {
   .md\:focus\:text-gray-500:focus {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .md\:focus\:text-gray-550:focus {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .md\:focus\:text-gray-600:focus {
@@ -83159,6 +83494,14 @@ button:focus, input:focus {
     grid-template-columns: none;
   }
 
+  .md\:grid-cols-2-auto {
+    grid-template-columns: auto auto;
+  }
+
+  .md\:grid-cols-2-info {
+    grid-template-columns: 190px auto;
+  }
+
   .md\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -83369,6 +83712,10 @@ button:focus, input:focus {
 
   .md\:grid-rows-none {
     grid-template-rows: none;
+  }
+
+  .md\:grid-rows-2-auto {
+    grid-template-rows: auto auto;
   }
 
   .md\:auto-rows-auto {
@@ -88173,6 +88520,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .lg\:bg-gray-250 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .lg\:bg-gray-300 {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -88186,6 +88538,11 @@ button:focus, input:focus {
   .lg\:bg-gray-500 {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-gray-550 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .lg\:bg-gray-600 {
@@ -88601,6 +88958,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .group:hover .lg\:group-hover\:bg-gray-250 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .group:hover .lg\:group-hover\:bg-gray-300 {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -88614,6 +88976,11 @@ button:focus, input:focus {
   .group:hover .lg\:group-hover\:bg-gray-500 {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-gray-550 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .group:hover .lg\:group-hover\:bg-gray-600 {
@@ -89029,6 +89396,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .lg\:focus-within\:bg-gray-250:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .lg\:focus-within\:bg-gray-300:focus-within {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -89042,6 +89414,11 @@ button:focus, input:focus {
   .lg\:focus-within\:bg-gray-500:focus-within {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-gray-550:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .lg\:focus-within\:bg-gray-600:focus-within {
@@ -89457,6 +89834,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .lg\:hover\:bg-gray-250:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .lg\:hover\:bg-gray-300:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -89470,6 +89852,11 @@ button:focus, input:focus {
   .lg\:hover\:bg-gray-500:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-gray-550:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .lg\:hover\:bg-gray-600:hover {
@@ -89885,6 +90272,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .lg\:focus\:bg-gray-250:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .lg\:focus\:bg-gray-300:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -89898,6 +90290,11 @@ button:focus, input:focus {
   .lg\:focus\:bg-gray-500:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-gray-550:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .lg\:focus\:bg-gray-600:focus {
@@ -108336,6 +108733,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .lg\:text-gray-250 {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .lg\:text-gray-300 {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -108349,6 +108751,11 @@ button:focus, input:focus {
   .lg\:text-gray-500 {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .lg\:text-gray-550 {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .lg\:text-gray-600 {
@@ -108759,6 +109166,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .group:hover .lg\:group-hover\:text-gray-250 {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .group:hover .lg\:group-hover\:text-gray-300 {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -108772,6 +109184,11 @@ button:focus, input:focus {
   .group:hover .lg\:group-hover\:text-gray-500 {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:text-gray-550 {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .group:hover .lg\:group-hover\:text-gray-600 {
@@ -109182,6 +109599,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .lg\:focus-within\:text-gray-250:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .lg\:focus-within\:text-gray-300:focus-within {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -109195,6 +109617,11 @@ button:focus, input:focus {
   .lg\:focus-within\:text-gray-500:focus-within {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .lg\:focus-within\:text-gray-550:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .lg\:focus-within\:text-gray-600:focus-within {
@@ -109605,6 +110032,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .lg\:hover\:text-gray-250:hover {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .lg\:hover\:text-gray-300:hover {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -109618,6 +110050,11 @@ button:focus, input:focus {
   .lg\:hover\:text-gray-500:hover {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .lg\:hover\:text-gray-550:hover {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .lg\:hover\:text-gray-600:hover {
@@ -110028,6 +110465,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .lg\:focus\:text-gray-250:focus {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .lg\:focus\:text-gray-300:focus {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -110041,6 +110483,11 @@ button:focus, input:focus {
   .lg\:focus\:text-gray-500:focus {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .lg\:focus\:text-gray-550:focus {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .lg\:focus\:text-gray-600:focus {
@@ -111816,6 +112263,14 @@ button:focus, input:focus {
     grid-template-columns: none;
   }
 
+  .lg\:grid-cols-2-auto {
+    grid-template-columns: auto auto;
+  }
+
+  .lg\:grid-cols-2-info {
+    grid-template-columns: 190px auto;
+  }
+
   .lg\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -112026,6 +112481,10 @@ button:focus, input:focus {
 
   .lg\:grid-rows-none {
     grid-template-rows: none;
+  }
+
+  .lg\:grid-rows-2-auto {
+    grid-template-rows: auto auto;
   }
 
   .lg\:auto-rows-auto {
@@ -116830,6 +117289,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .xl\:bg-gray-250 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .xl\:bg-gray-300 {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -116843,6 +117307,11 @@ button:focus, input:focus {
   .xl\:bg-gray-500 {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-gray-550 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .xl\:bg-gray-600 {
@@ -117258,6 +117727,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .group:hover .xl\:group-hover\:bg-gray-250 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .group:hover .xl\:group-hover\:bg-gray-300 {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -117271,6 +117745,11 @@ button:focus, input:focus {
   .group:hover .xl\:group-hover\:bg-gray-500 {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-gray-550 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .group:hover .xl\:group-hover\:bg-gray-600 {
@@ -117686,6 +118165,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .xl\:focus-within\:bg-gray-250:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .xl\:focus-within\:bg-gray-300:focus-within {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -117699,6 +118183,11 @@ button:focus, input:focus {
   .xl\:focus-within\:bg-gray-500:focus-within {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-gray-550:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .xl\:focus-within\:bg-gray-600:focus-within {
@@ -118114,6 +118603,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .xl\:hover\:bg-gray-250:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .xl\:hover\:bg-gray-300:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -118127,6 +118621,11 @@ button:focus, input:focus {
   .xl\:hover\:bg-gray-500:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-gray-550:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .xl\:hover\:bg-gray-600:hover {
@@ -118542,6 +119041,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .xl\:focus\:bg-gray-250:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .xl\:focus\:bg-gray-300:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -118555,6 +119059,11 @@ button:focus, input:focus {
   .xl\:focus\:bg-gray-500:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-gray-550:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .xl\:focus\:bg-gray-600:focus {
@@ -136993,6 +137502,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .xl\:text-gray-250 {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .xl\:text-gray-300 {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -137006,6 +137520,11 @@ button:focus, input:focus {
   .xl\:text-gray-500 {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .xl\:text-gray-550 {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .xl\:text-gray-600 {
@@ -137416,6 +137935,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .group:hover .xl\:group-hover\:text-gray-250 {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .group:hover .xl\:group-hover\:text-gray-300 {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -137429,6 +137953,11 @@ button:focus, input:focus {
   .group:hover .xl\:group-hover\:text-gray-500 {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:text-gray-550 {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .group:hover .xl\:group-hover\:text-gray-600 {
@@ -137839,6 +138368,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .xl\:focus-within\:text-gray-250:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .xl\:focus-within\:text-gray-300:focus-within {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -137852,6 +138386,11 @@ button:focus, input:focus {
   .xl\:focus-within\:text-gray-500:focus-within {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .xl\:focus-within\:text-gray-550:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .xl\:focus-within\:text-gray-600:focus-within {
@@ -138262,6 +138801,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .xl\:hover\:text-gray-250:hover {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .xl\:hover\:text-gray-300:hover {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -138275,6 +138819,11 @@ button:focus, input:focus {
   .xl\:hover\:text-gray-500:hover {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .xl\:hover\:text-gray-550:hover {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .xl\:hover\:text-gray-600:hover {
@@ -138685,6 +139234,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .xl\:focus\:text-gray-250:focus {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .xl\:focus\:text-gray-300:focus {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -138698,6 +139252,11 @@ button:focus, input:focus {
   .xl\:focus\:text-gray-500:focus {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .xl\:focus\:text-gray-550:focus {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .xl\:focus\:text-gray-600:focus {
@@ -140473,6 +141032,14 @@ button:focus, input:focus {
     grid-template-columns: none;
   }
 
+  .xl\:grid-cols-2-auto {
+    grid-template-columns: auto auto;
+  }
+
+  .xl\:grid-cols-2-info {
+    grid-template-columns: 190px auto;
+  }
+
   .xl\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -140683,6 +141250,10 @@ button:focus, input:focus {
 
   .xl\:grid-rows-none {
     grid-template-rows: none;
+  }
+
+  .xl\:grid-rows-2-auto {
+    grid-template-rows: auto auto;
   }
 
   .xl\:auto-rows-auto {
@@ -145487,6 +146058,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .\32xl\:bg-gray-250 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .\32xl\:bg-gray-300 {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -145500,6 +146076,11 @@ button:focus, input:focus {
   .\32xl\:bg-gray-500 {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-gray-550 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .\32xl\:bg-gray-600 {
@@ -145915,6 +146496,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .group:hover .\32xl\:group-hover\:bg-gray-250 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .group:hover .\32xl\:group-hover\:bg-gray-300 {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -145928,6 +146514,11 @@ button:focus, input:focus {
   .group:hover .\32xl\:group-hover\:bg-gray-500 {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-gray-550 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:bg-gray-600 {
@@ -146343,6 +146934,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .\32xl\:focus-within\:bg-gray-250:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .\32xl\:focus-within\:bg-gray-300:focus-within {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -146356,6 +146952,11 @@ button:focus, input:focus {
   .\32xl\:focus-within\:bg-gray-500:focus-within {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-gray-550:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .\32xl\:focus-within\:bg-gray-600:focus-within {
@@ -146771,6 +147372,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .\32xl\:hover\:bg-gray-250:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .\32xl\:hover\:bg-gray-300:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -146784,6 +147390,11 @@ button:focus, input:focus {
   .\32xl\:hover\:bg-gray-500:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-gray-550:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .\32xl\:hover\:bg-gray-600:hover {
@@ -147199,6 +147810,11 @@ button:focus, input:focus {
     background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
   }
 
+  .\32xl\:focus\:bg-gray-250:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 224, 224, var(--tw-bg-opacity));
+  }
+
   .\32xl\:focus\:bg-gray-300:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
@@ -147212,6 +147828,11 @@ button:focus, input:focus {
   .\32xl\:focus\:bg-gray-500:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-gray-550:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(84, 68, 57, var(--tw-bg-opacity));
   }
 
   .\32xl\:focus\:bg-gray-600:focus {
@@ -165650,6 +166271,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .\32xl\:text-gray-250 {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .\32xl\:text-gray-300 {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -165663,6 +166289,11 @@ button:focus, input:focus {
   .\32xl\:text-gray-500 {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .\32xl\:text-gray-550 {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .\32xl\:text-gray-600 {
@@ -166073,6 +166704,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .group:hover .\32xl\:group-hover\:text-gray-250 {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .group:hover .\32xl\:group-hover\:text-gray-300 {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -166086,6 +166722,11 @@ button:focus, input:focus {
   .group:hover .\32xl\:group-hover\:text-gray-500 {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:text-gray-550 {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:text-gray-600 {
@@ -166496,6 +167137,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .\32xl\:focus-within\:text-gray-250:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .\32xl\:focus-within\:text-gray-300:focus-within {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -166509,6 +167155,11 @@ button:focus, input:focus {
   .\32xl\:focus-within\:text-gray-500:focus-within {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .\32xl\:focus-within\:text-gray-550:focus-within {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .\32xl\:focus-within\:text-gray-600:focus-within {
@@ -166919,6 +167570,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .\32xl\:hover\:text-gray-250:hover {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .\32xl\:hover\:text-gray-300:hover {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -166932,6 +167588,11 @@ button:focus, input:focus {
   .\32xl\:hover\:text-gray-500:hover {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .\32xl\:hover\:text-gray-550:hover {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .\32xl\:hover\:text-gray-600:hover {
@@ -167342,6 +168003,11 @@ button:focus, input:focus {
     color: rgba(229, 231, 235, var(--tw-text-opacity));
   }
 
+  .\32xl\:focus\:text-gray-250:focus {
+    --tw-text-opacity: 1;
+    color: rgba(224, 224, 224, var(--tw-text-opacity));
+  }
+
   .\32xl\:focus\:text-gray-300:focus {
     --tw-text-opacity: 1;
     color: rgba(209, 213, 219, var(--tw-text-opacity));
@@ -167355,6 +168021,11 @@ button:focus, input:focus {
   .\32xl\:focus\:text-gray-500:focus {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
+  }
+
+  .\32xl\:focus\:text-gray-550:focus {
+    --tw-text-opacity: 1;
+    color: rgba(84, 68, 57, var(--tw-text-opacity));
   }
 
   .\32xl\:focus\:text-gray-600:focus {
@@ -169130,6 +169801,14 @@ button:focus, input:focus {
     grid-template-columns: none;
   }
 
+  .\32xl\:grid-cols-2-auto {
+    grid-template-columns: auto auto;
+  }
+
+  .\32xl\:grid-cols-2-info {
+    grid-template-columns: 190px auto;
+  }
+
   .\32xl\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -169340,6 +170019,10 @@ button:focus, input:focus {
 
   .\32xl\:grid-rows-none {
     grid-template-rows: none;
+  }
+
+  .\32xl\:grid-rows-2-auto {
+    grid-template-rows: auto auto;
   }
 
   .\32xl\:auto-rows-auto {

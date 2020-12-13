@@ -5,10 +5,10 @@ module.exports = {
     extend: {
       screens: {},
       textColor: {
-        gray: { 750: "#291507" },
+        gray: { 250: "#E0E0E0", 550: "#544439", 750: "#291507" },
       },
       backgroundColor: {
-        gray: { 750: "#291507" },
+        gray: { 250: "#E0E0E0", 550: "#544439", 750: "#291507" },
         yellow: { 550: "#DEC68B" },
       },
       fontFamily: {
@@ -22,6 +22,13 @@ module.exports = {
       },
       animation: {
         "to-left": "to-left 0.3s ease-out forwards",
+      },
+      gridTemplateColumns: {
+        "2-auto": "auto auto",
+        "2-info": "190px auto",
+      },
+      gridTemplateRows: {
+        "2-auto": "auto auto",
       },
     },
   },

@@ -12,12 +12,18 @@
   top: 50%;
   transform: translate(0, -50%);
 }
-.underline-short {
+.underline-short,
+.topline-short {
   @apply relative;
 }
 .underline-short::after {
   content: "";
   @apply w-20 h-1 bg-gray-750 block;
+}
+
+.topline-short::after {
+  content: "";
+  @apply w-20 h-1 bg-gray-750 block absolute -top-4;
 }
 
 .cat-img:hover > *:last-child {
