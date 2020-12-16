@@ -4,10 +4,11 @@ import CatWikiLogo from "../images/CatwikiLogoWhite.svg";
 export default function Footer() {
   return (
     <footer className=" container px-4 mx-auto">
-      <div className="flex justify-between items-center bg-black px-24 py-6 rounded-t-3xl">
-        <img src={CatWikiLogo} alt="" />
+      <div className="flex md:justify-between justify-center items-center bg-black 2xl:px-24 xl:px-20 lg:px-16 md:px-14 xl:py-6 lg:py-5 sm:py-3 rounded-t-3xl">
+        <img className="md:block hidden" src={CatWikiLogo} alt="" />
         <p className="text-white">
-          © <a href="">Tuấn Vũ</a> - <a href="">DevChallenge.io</a> 2020
+          © <a href="https://github.com/Shoji5">Tuấn Vũ</a> - <a href="https://devchallenges.io/">DevChallenge.io</a>{" "}
+          2020
         </p>
       </div>
     </footer>

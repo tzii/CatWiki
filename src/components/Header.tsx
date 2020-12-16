@@ -4,7 +4,7 @@ import CatWikiLogo from "../images/CatwikiLogo.svg";
 export default function Header() {
   return (
     <div className="container px-4 mx-auto mt-2">
-      <img src={CatWikiLogo} alt="" />
+      <img className="w-48" src={CatWikiLogo} alt="" />
     </div>
   );
 }
