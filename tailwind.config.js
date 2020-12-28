@@ -35,7 +35,8 @@ module.exports = {
   variants: {
     extend: {
       animation: ["group-hover"],
+      backgroundColor: ["active"],
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };

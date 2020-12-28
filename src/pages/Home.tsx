@@ -5,8 +5,14 @@ import Image1 from "../images/image 1.png";
 import Image2 from "../images/image 2.png";
 import Image3 from "../images/image 3.png";
 import CatImage from "../components/CatImage";
+import { connect } from "react-redux";
+import { TopSearchedCat } from "../store/topSearchSlice";
+import { Link } from "react-router-dom";
+import AutoComplete from "../components/AutoComplete";
 
-export default function Home() {
+function Home(props: { topSearched: TopSearchedCat[] }) {
+  const { topSearched } = props;
+
   return (
     <div className="container px-4 mt-2 mx-auto">
       <section className="rounded-3xl overflow-hidden">
@@ -18,17 +24,7 @@ export default function Home() {
               <p className="md:text-2xl sm:text-xl text-xs text-white sm:mt-4 mt-2">
                 Get to know more about your cat breed
               </p>
-              <form className="sm:mt-8 mt-4 relative">
-                <label htmlFor="search">
-                  <input
-                    className="lg:w-80 md:w-72 sm:w-64 w-24 h-10 rounded-full pl-4 pr-7 sm:text-base text-sm"
-                    type="text"
-                    id="search"
-                    placeholder="Enter your breed"
-                  />
-                </label>
-                <i className="fas fa-search absolute  pos-center right-2"></i>
-              </form>
+              <AutoComplete />
             </div>
           </div>
         </div>
@@ -38,13 +34,13 @@ export default function Home() {
             <h2 className="lg:text-5xl sm:text-4xl text-lg md:w-1/2 sm:w-3/4 w-3/4 font-bold">
               66+ Breeds For you to discover
             </h2>
-            <button className="font-bold text-gray-750 text-opacity-60 sm:block hidden">
+            <Link to="/top" className="font-bold text-gray-750 text-opacity-60 sm:block hidden">
               SEE MORE <i className="far fa-long-arrow-right"></i>
-            </button>
+            </Link>
           </div>
           <div className="sm:mt-4 mt-2 mb-10   flex -mx-4  justify-between flex-wrap">
-            {[{}, {}, {}, {}].map((res) => (
-              <CatImage className="px-4" />
+            {topSearched.slice(0, 4).map((x: TopSearchedCat) => (
+              <CatImage className="px-4" key={x.id} data={x} />
             ))}
           </div>
         </div>
@@ -58,9 +54,9 @@ export default function Home() {
             Having a cat around you can actually trigger the release of calming chemicals in your body which lower your
             stress and anxiety leves
           </p>
-          <button className="lg:mt-10 mt-10 md:mt-7 mb-10 font-bold text-gray-750 text-opacity-60">
+          <Link to="/top" className="lg:mt-10 mt-10 md:mt-7 mb-10 font-bold text-gray-750 text-opacity-60">
             READ MORE <i className="far fa-long-arrow-right"></i>
-          </button>
+          </Link>
         </div>
         <div className="md:w-1/2 w-full px-4 mt-4  grid grid-rows-2-auto grid-cols-2-auto xl:gap-8 lg:gap-6 md:gap-5 sm:gap-10 gap-6">
           <img className="" src={Image1} alt="" />
@@ -71,3 +67,9 @@ export default function Home() {
     </div>
   );
 }
+
+const mapStatetoProps = (state: any) => ({ topSearched: state.topSearched });
+
+const mapDispatchToProps = {};
+
+export default connect(mapStatetoProps, mapDispatchToProps)(Home);
