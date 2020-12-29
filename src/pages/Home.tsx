@@ -34,7 +34,7 @@ function Home(props: { topSearched: TopSearchedCat[] }) {
             <h2 className="lg:text-5xl sm:text-4xl text-lg md:w-1/2 sm:w-3/4 w-3/4 font-bold">
               66+ Breeds For you to discover
             </h2>
-            <Link to="/top" className="font-bold text-gray-750 text-opacity-60 sm:block hidden">
+            <Link to="/top" className="font-bold text-gray-750 text-opacity-60 sm:block hidden animate-underline">
               SEE MORE <i className="far fa-long-arrow-right"></i>
             </Link>
           </div>
@@ -54,14 +54,16 @@ function Home(props: { topSearched: TopSearchedCat[] }) {
             Having a cat around you can actually trigger the release of calming chemicals in your body which lower your
             stress and anxiety leves
           </p>
-          <Link to="/top" className="lg:mt-10 mt-10 md:mt-7 mb-10 font-bold text-gray-750 text-opacity-60">
-            READ MORE <i className="far fa-long-arrow-right"></i>
-          </Link>
+          <p className="lg:mt-10 mt-10 md:mt-7 mb-10">
+            <Link to="/top" className="font-bold text-gray-750 text-opacity-60 animate-underline">
+              READ MORE <i className="far fa-long-arrow-right"></i>
+            </Link>
+          </p>
         </div>
         <div className="md:w-1/2 w-full px-4 mt-4  grid grid-rows-2-auto grid-cols-2-auto xl:gap-8 lg:gap-6 md:gap-5 sm:gap-10 gap-6">
-          <img className="" src={Image1} alt="" />
-          <img className="row-span-2" src={Image3} alt="" />
-          <img className="w-3/4 justify-self-end" src={Image2} alt="" />
+          <img className="transform transition hover:scale-105" src={Image1} alt="" />
+          <img className="transform transition hover:scale-105 row-span-2" src={Image3} alt="" />
+          <img className="transform transition hover:scale-105 w-3/4 justify-self-end" src={Image2} alt="" />
         </div>
       </section>
     </div>

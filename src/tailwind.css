@@ -29,3 +29,24 @@
 .cat-img:hover > *:last-child {
   @apply animate-to-left;
 }
+
+.animate-underline {
+  @apply relative;
+}
+.animate-underline::after {
+  content: "";
+  @apply absolute left-0 -bottom-1 w-0 h-0.5 bg-gray-750 transition-all bg-opacity-60;
+}
+.animate-underline:hover::after {
+  @apply w-full;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb,
+.scrollbar-thin::-webkit-scrollbar-track {
+  @apply rounded-full;
+}
+
+.clearfix::after {
+  content: "";
+  @apply clear-both block;
+}

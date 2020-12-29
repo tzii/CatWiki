@@ -4,6 +4,11 @@ module.exports = {
   theme: {
     extend: {
       screens: {},
+      spacing: {
+        68: "17rem",
+        29: "7.25rem",
+        37: "9.25rem",
+      },
       textColor: {
         gray: { 250: "#E0E0E0", 550: "#544439", 750: "#291507" },
       },

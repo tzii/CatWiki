@@ -1,4 +1,4 @@
-const url = "http://localhost:5000/";
+const url = "https://cat-wikii.herokuapp.com/";
 
 export function getTopSearched() {
   return fetch(url + "api/topsearched").then((res) => res.json());
