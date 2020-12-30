@@ -1,21 +1,59 @@
 import React, { useEffect, useState } from "react";
+import Skeleton from "react-loading-skeleton";
 import { useParams } from "react-router-dom";
 import { getBreed } from "../api";
 import Level from "../components/Level";
 
 export default function CatDetails() {
-  const [data, setData] = useState<any>({ status: "err", msg: "wrong breed id" });
+  const [data, setData] = useState<any>({ status: "loading" });
   const { id } = useParams<{ id: string }>();
 
   useEffect(() => {
     getBreed(id).then(setData);
   }, [id]);
-  if (data.status) return null;
+  if (data.status === "loading")
+    return (
+      <div className="container px-4 mt-4 mx-auto text-lg">
+        <section className="2xl:px-24 xl:px-20 lg:px-16 md:px-12 sm:px-8 flex flex-wrap">
+          <div className="relative 2xl:w-72 2xl:h-72 xl:w-68 xl:h-68 lg:w-60 lg:h-60 w-full h-44 lg:mr-10 mb-10">
+            <Skeleton height="100%" />
+          </div>
+          <div className="flex-1">
+            <Skeleton height={25} width={150} />
+            <Skeleton count={4} />
+            <Skeleton width="80%" />
+            <Skeleton width="80%" />
+            <Skeleton width="80%" />
+            <Skeleton width="80%" />
+            <Skeleton width="80%" />
+            <Skeleton width="80%" />
+            <Skeleton width="80%" />
+            <Skeleton width="80%" />
+            <Skeleton width="80%" />
+            <Skeleton width="80%" />
+            <Skeleton width="80%" />
+          </div>
+        </section>
+        <section className="my-20">
+          <h2 className="text-4xl font-semibold">Other photos</h2>
+          <div className="flex -mx-4 flex-wrap justify-between">
+            {[0, 0, 0, 0, 0, 0, 0, 0].map((x, i) => (
+              <div className="px-4 mt-10 sm:w-auto w-full">
+                <div className="2xl:w-80 2xl:h-80 xl:w-72 xl:h-72 lg:w-56 lg:h-56 md:w-88 md:h-88 sm:w-72 sm:h-72 w-full h-56 object-cover rounded-3xl">
+                  <Skeleton height="100%" />
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      </div>
+    );
+  else if (data.status === "err") return <h2>Not Found</h2>;
   else
     return (
       <div className="container px-4 mt-4 mx-auto text-lg">
         <section className="2xl:px-24 xl:px-20 lg:px-16 md:px-12 sm:px-8 flex flex-wrap">
-          <div className="relative 2xl:w-72 2xl:h-72 xl:w-68 xl:h-68 lg:w-60 lg:h-60 md:w-full md:h-full lg:mr-10 mb-10">
+          <div className="relative 2xl:w-72 2xl:h-72 xl:w-68 xl:h-68 lg:w-60 lg:h-60 w-full lg:mr-10 mb-10">
             <div className="absolute xl:-left-4 xl:w-8 2xl:h-48 xl:h-48 lg:h-40 sm:-left-3 sm:w-6 -left-2 w-4 h-3/4 bg-yellow-550 pos-center rounded-2xl"></div>
             <img className="w-full h-full object-cover rounded-2xl relative z-10" src={data.images[0]} alt="" />
           </div>

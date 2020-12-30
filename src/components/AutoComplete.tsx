@@ -1,6 +1,7 @@
 import React, { ChangeEvent, FormEvent, KeyboardEvent, MouseEvent, useEffect, useRef, useState } from "react";
 import { connect } from "react-redux";
 import { useHistory } from "react-router-dom";
+import ReactLoading from "react-loading";
 
 function AutoComplete(props: { allBreeds: any[] }) {
   const [activeSuggestion_Model, setActiveSuggestion_Model] = useState(0);
@@ -120,7 +121,12 @@ function AutoComplete(props: { allBreeds: any[] }) {
             </ul>
           </div>
         );
-      }
+      } else
+        return (
+          <div className="absolute z-10 mt-2 py-3 pl-3 pr-1 bg-white w-full rounded-2xl flex justify-center">
+            <ReactLoading type="spin" color="#D1D5DB" height={30} width={30} />
+          </div>
+        );
     }
     return null;
   };
@@ -154,7 +160,12 @@ function AutoComplete(props: { allBreeds: any[] }) {
             </ul>
           </div>
         );
-      }
+      } else
+        return (
+          <div className="z-10 mt-2 py-3 bg-white w-full rounded-2xl flex-1 overflow-auto flex justify-center">
+            <ReactLoading type="spin" color="#D1D5DB" height={30} width={30} />
+          </div>
+        );
     }
     return null;
   };

@@ -39,6 +39,7 @@ function Home(props: { topSearched: TopSearchedCat[] }) {
             </Link>
           </div>
           <div className="sm:mt-4 mt-2 mb-10   flex -mx-4  justify-between flex-wrap">
+            {topSearched.length === 0 && [1, 1, 1, 1].map((x, i) => <CatImage className="px-4" key={i} />)}
             {topSearched.slice(0, 4).map((x: TopSearchedCat) => (
               <CatImage className="px-4" key={x.id} data={x} />
             ))}
