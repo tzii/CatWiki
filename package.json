@@ -2,6 +2,7 @@
   "name": "catwiki",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://shoji5.github.io/CatWiki/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.0",
     "@testing-library/jest-dom": "^5.11.6",
@@ -27,6 +28,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npx run build:css && npx run build",
     "watch:css": "npx postcss src/tailwind.css -o src/tailwind.output.css -w",
     "build:css": "npx postcss src/tailwind.css -o src/tailwind.output.css",
     "start": "react-scripts start",
