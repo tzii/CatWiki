@@ -38,7 +38,7 @@ export default function CatDetails() {
           <h2 className="text-4xl font-semibold">Other photos</h2>
           <div className="flex -mx-4 flex-wrap justify-between">
             {[0, 0, 0, 0, 0, 0, 0, 0].map((x, i) => (
-              <div className="px-4 mt-10 sm:w-auto w-full">
+              <div key={i} className="px-4 mt-10 sm:w-auto w-full">
                 <div className="2xl:w-80 2xl:h-80 xl:w-72 xl:h-72 lg:w-56 lg:h-56 md:w-88 md:h-88 sm:w-72 sm:h-72 w-full h-56 object-cover rounded-3xl">
                   <Skeleton height="100%" />
                 </div>
@@ -95,8 +95,8 @@ export default function CatDetails() {
         <section className="my-20">
           <h2 className="text-4xl font-semibold">Other photos</h2>
           <div className="flex -mx-4 flex-wrap justify-between">
-            {data.images.slice(1).map((x: string) => (
-              <div className="px-4 mt-10">
+            {data.images.slice(1).map((x: string, i: any) => (
+              <div key={i} className="px-4 mt-10">
                 <img
                   className="2xl:w-80 2xl:h-80 xl:w-72 xl:h-72 lg:w-56 lg:h-56 md:w-88 md:h-88 sm:w-72 sm:h-72 w-full object-cover rounded-3xl"
                   src={x}
